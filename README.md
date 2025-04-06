@@ -1,6 +1,6 @@
 # AzzamAnalyst
 
-[![Deploy to GitHub Pages](https://github.com/[your-username]/AzzamAnalyst/actions/workflows/deploy.yml/badge.svg)](https://github.com/[your-username]/AzzamAnalyst/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/drazzam/AzzamAnalyst/actions/workflows/deploy.yml/badge.svg)](https://github.com/drazzam/AzzamAnalyst/actions/workflows/deploy.yml)
 
 AzzamAnalyst is a revolutionary web-based biostatistical AI agent that combines advanced data analysis capabilities with an intuitive user interface. It offers a comprehensive solution for statistical analysis, visualization, and reporting, aimed at researchers and professionals in biomedical and clinical fields.
 
@@ -25,7 +25,7 @@ AzzamAnalyst is a revolutionary web-based biostatistical AI agent that combines 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/AzzamAnalyst.git
+git clone https://github.com/drazzam/AzzamAnalyst.git
 cd AzzamAnalyst
 ```
 
