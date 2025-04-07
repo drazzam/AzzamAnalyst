@@ -1603,7 +1603,7 @@ The R-squared value of {r_value**2:.4f} indicates that {r_value**2*100:.1f}% of 
       break;
       
     default:
-      code = `
+      code =
 # Create general descriptive visualizations
 variables = ${JSON.stringify(variables)}
 
@@ -1632,7 +1632,7 @@ for var in variables:
             desc_stats = df[var].describe()
             results['statistics'].append({
                 'title': f'Descriptive Statistics for {var}',
-                'text': f""" `;
+                'text': f"""
 ## Descriptive Statistics for {var}
 
 - **Mean**: {desc_stats['mean']:.4f}
