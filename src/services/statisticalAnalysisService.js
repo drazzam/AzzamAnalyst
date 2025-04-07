@@ -1632,7 +1632,7 @@ for var in variables:
             desc_stats = df[var].describe()
             results['statistics'].append({
                 'title': f'Descriptive Statistics for {var}',
-                'text': f"""
+                'text': f""" `;
 ## Descriptive Statistics for {var}
 
 - **Mean**: {desc_stats['mean']:.4f}
