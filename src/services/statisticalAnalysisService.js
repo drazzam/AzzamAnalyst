@@ -1603,7 +1603,7 @@ The R-squared value of {r_value**2:.4f} indicates that {r_value**2*100:.1f}% of 
       break;
       
     default:
-      code =
+      code = `
 # Create general descriptive visualizations
 variables = ${JSON.stringify(variables)}
 
@@ -1626,7 +1626,7 @@ for var in variables:
                 'description': f'Histogram showing the frequency distribution of {var}',
                 'content': fig_to_base64(fig)
             })
-            plt.close(fig)
+            plt.close(fig)`;
             
             # Add descriptive statistics
             desc_stats = df[var].describe()
